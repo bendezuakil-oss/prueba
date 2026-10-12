@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160e2b">
+  <title>Para Sofi 💜</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main>
+    <section class="screen active" id="inicio">
+      <div class="moon">☾</div>
+      <p class="eyebrow">Un pequeño detalle para ti</p>
+      <h1>Sofi,<br><span>hay algo que quisiera decirte...</span></h1>
+      <p class="intro">
+        No sé si encontraré las palabras perfectas,
+        pero quiero que sepas que esto viene de corazón.
+      </p>
+      <button class="btn" data-go="sobre">♡ Sigue leyendo</button>
+      <p class="hint">Hecho con cariño, especialmente para ti</p>
+    </section>
+
+    <section class="screen" id="sobre">
+      <button class="back" data-go="inicio">← Atrás</button>
+      <p class="eyebrow">Unas palabras que tenía pendientes</p>
+      <h2>Para ti, Sofi ♡</h2>
+      <p class="intro">
+        No tienes que responder ahora.
+        Solo quisiera que leyeras esto cuando te sientas cómoda.
+      </p>
+
+      <button class="envelope" id="abrir" aria-label="Abrir la carta">
+        <span class="envelope-flap"></span>
+        <span class="seal">♡</span>
+        <span class="envelope-label">Una carta para ti</span>
+      </button>
+      <button class="btn" id="botonCarta">Abrir mi carta 💌</button>
+    </section>
+
+    <section class="screen" id="carta">
+      <button class="back" data-go="sobre">← Atrás</button>
+      <article class="letter">
+        <p class="letter-title">Para Sofi</p>
+        <div class="ornament">──── ♡ ────</div>
+
+        <p>Sofi, he estado pensando en lo que pasó entre nosotros y quería pedirte perdón.</p>
+
+        <p>Me dejé llevar por mis inseguridades y por todo lo que estaba sintiendo. Acepté algo que después me hizo darme cuenta de que, en realidad, quería algo diferente contigo.</p>
+
+        <p>Me importas y me dolía sentir que quizá no podía llegar a ser esa persona con la que quisieras tener algo oficial. No supe cómo hablarte de lo que sentía y, en lugar de explicártelo con calma, reaccioné impulsivamente.</p>
+
+        <p>Te dije que mejor lo dejáramos ahí, aunque no era lo que realmente quería decir. Entiendo que mis palabras te hayan molestado y que te haya hecho sentir mal. No estuvo bien expresarme así, y lo siento de corazón.</p>
+
+        <p>No te escribo para justificarme ni para hacerte cambiar de opinión a la fuerza. Sé que mis sentimientos también son mi responsabilidad y que debí hablar contigo con sinceridad, en lugar de tomar una decisión en medio de una discusión.</p>
+
+        <p>Me gustas, Sofi, y me importas mucho. Me hubiera gustado hacer las cosas mejor desde el principio. También necesito ser honesto con lo que siento y con lo que deseo para nosotros.</p>
+
+        <p>No espero que todo se arregle por leer estas palabras. Solo quería que supieras que me arrepiento de cómo actué y que, si algún día quieres que hablemos con tranquilidad, me gustaría escucharte y expresarme mejor.</p>
+
+        <p>Perdóname por la manera en que hice las cosas. Gracias por haber compartido conmigo momentos que significan mucho para mí. ♡</p>
+
+        <p class="signature">Con cariño,<br>Akil ♡</p>
+      </article>
+      <button class="btn" data-go="final">Continuar ♡</button>
+    </section>
+
+    <section class="screen" id="final">
+      <div class="final-heart">♡</div>
+      <p class="eyebrow">Antes de terminar...</p>
+      <h2>Sofi, gracias por leerme.</h2>
+      <p class="final-text">
+        No quiero presionarte ni pedirte que decidas algo ahora.
+        Solo quería ser sincero contigo y reconocer mi error.
+      </p>
+      <p class="final-text">
+        Sea cual sea tu decisión, quería que supieras que lo siento
+        y que me importas de verdad.
+      </p>
+      <div class="ornament">──── ✧ ♡ ✧ ────</div>
+      <p class="signature">Siempre con cariño,<br>Akil</p>
+      <button class="btn" data-go="inicio">Volver al inicio ↺</button>
+    </section>
+  </main>
+
+  <footer>Una página hecha con sinceridad ♡</footer>
+</body>
+</html>
